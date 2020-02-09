@@ -57,5 +57,5 @@ void vendor_load_properties()
 {
     // fingerprint
     property_override("ro.build.description", "cepheus-user 10 QKQ1.190825.002 V11.0.7.0 release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ1B.200105.004/6031802:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "Xiaomi/sagit/sagit:7.1.1/NMF26X/V8.2.17.0.NCACNEC:user/release-keys");
 }

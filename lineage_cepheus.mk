@@ -29,7 +29,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # crDroid specific flags
 TARGET_HAS_UDFPS := true
-TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier
 PRODUCT_NAME := lineage_cepheus

@@ -110,6 +110,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_call_composer_supported_bool" value="false"/>
         <!-- Config for explicit call transfer support for an IMS call -->
         <boolean name="carrier_allow_transfer_ims_call_bool" value="true" />
+
+        <!-- Config to show 4G and 4G+ icon -->
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
     </carrier_config>
 
     <carrier_config mcc="001" mnc="01">
@@ -306,6 +310,12 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     <carrier_config mcc="228" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="228" mnc="02,12">
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
+        <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
 
     <carrier_config mcc="230" mnc="01">

@@ -11,10 +11,6 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Battery Health -->
-    <string name="config_batteryRemainingCapacityNode">/sys/class/power_supply/bms/charge_full</string>
-    <string name="config_batteryDesignCapacityNode">/sys/class/power_supply/bms/charge_full_design</string>
-
     <!-- The number of vibration intensity levels supported by the device.
          Note that this should correspond to the ability to vary the vibration amplitude, with
          enough dynamic range to have at least as many distinct intensity levels as defined here.

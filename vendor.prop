@@ -275,3 +275,6 @@ ro.hardware.fp.udfps=true
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Recovery
+persist.vendor.recovery_update=false

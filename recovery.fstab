@@ -14,6 +14,7 @@
 /vendor_image  emmc    /dev/block/bootdevice/by-name/vendor
 
 /data          ext4   /dev/block/bootdevice/by-name/userdata
+/storage       ext4   /data/media/0                                              flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
 /firmware      vfat   /dev/block/bootdevice/by-name/modem                        flags=display="Firmware";mounttodecrypt
 /cust          ext4   /dev/block/bootdevice/by-name/cust                         flags=display="Cust"
 /misc          emmc   /dev/block/bootdevice/by-name/misc
